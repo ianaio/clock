@@ -1,5 +1,5 @@
 [package]
-name = "ianaio-clock"
+name = "clock"
 description = "Clock crate used as an ianaio dependency located inside example directory path"
 version = "0.1.0"
 authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
