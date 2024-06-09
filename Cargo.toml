@@ -1,14 +1,14 @@
 [package]
-name = "clock"
+name = "ianaio-clock"
 description = "Clock crate used as an ianaio dependency located inside example directory path"
 version = "0.1.1"
 authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 license-file = "LICENSE.txt"
 readme = "README.md"
-repository = "https://github.com/ianaio/clock"
-homepage = "https://rustwasm.iana.io/example/clock"
-documentation = "https://docs.rs/clock/latest/clock"
+repository = "https://github.com/ianaio/ianaio-clock"
+homepage = "https://rustwasm.iana.io/example/ianaio-clock"
+documentation = "https://docs.rs/ianaio-clock/latest/ianaio-clock"
 categories = ["development-tools::profiling", "wasm", "clock", "example", "ianaio"]
 publish = true
 rust-version = "1.80"
@@ -17,7 +17,7 @@ rust-version = "1.80"
 crate-type = ["cdylib"]
 
 [dependencies]
-ianaio = { version = "0.1.0", path = "../..", features = ["futures"] }
+ianaio = { version = "0.1.1", path = "../..", features = ["futures"] }
 wasm-bindgen = "0.2.54"
 wasm-bindgen-futures = "0.4.4"
 futures-util = "0.3"
