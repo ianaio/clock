@@ -1,15 +1,15 @@
 [package]
 name = "clock"
 description = "Clock crate used as an ianaio dependency located inside example directory path"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 license-file = "LICENSE.txt"
 readme = "README.md"
-repository = "https://github.com/ianaio/console"
-homepage = "https://rustwasm.iana.io/console/"
-documentation = "https://docs.rs/ianaio-console/"
-categories = ["api-bindings", "development-tools::profiling", "wasm"]
+repository = "https://github.com/ianaio/clock"
+homepage = "https://rustwasm.iana.io/example/clock"
+documentation = "https://docs.rs/clock/latest/clock"
+categories = ["api-bindings", "development-tools::profiling", "wasm", "clock", "example", "ianaio"]
 publish = true
 rust-version = "1.80"
 
